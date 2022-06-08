@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.h1-home {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-size: 1920px 862px;
+}
+
+.box-list{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.box-infraestrutura{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    background-color: rgba(0, 150, 79, 0.80);
+    margin-top: 58px;
+    padding: 30px 15px;
+    width: 350px;
+    height: 500px;
+}
+
+.content-infraestrutura{
+    font-family: 'Open Sans', sans-serif;
+    width: 134%;
+}
+
+.content-infraestrutura h2{
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.content-infraestrutura p{
+    text-align: justify;
+    font-size: smaller;
+    color: white;
+}
+
+.content-lateral{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-lateral img{
+    /* height: 70%; */
+    width: 70%;
+}
+
+.content-lateral button{
+    border: none;
+    background-color: rgba(0, 150, 79, 0.03);
+}
